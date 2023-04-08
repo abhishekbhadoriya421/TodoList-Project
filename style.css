@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e4e1d4;
+}
+
+/* Main-Section Of Body */
+main{
+    background-color: #8783e5;
+    width: 60%;
+    min-width: 480px;
+    height: 90vh;
+    margin: 50px auto;
+    padding-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 1px black;
+}
+
+
+/* Input-Section*/
+
+    /* input-Box */
+    #inputBox{
+        background-color: #e8f7e7;
+        width: 90%;
+        height: 40px;
+        border-radius: 30px;
+        border: 0px;
+        box-shadow: 0px 4px 6px -1px black;
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin-left: 4%;
+    }
+
+    /* Task Counter */
+    #taskCount{
+        color: #bababa;
+        margin: 10px 0px 0px 8%;
+    }
+
+
+
+/* To Do List Container Section */
+
+#TodoList-Container{
+    width: 85%;
+    height: 60vh;
+    overflow-y: scroll;
+    margin-top: 12px;
+    list-style: none;
+}
+
+#TodoList-Container::-webkit-scrollbar{
+    display: none;
+}
+
+/* Every Task Body (li) */
+#TodoList-Container li{
+    
+    min-height:40px;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    overflow:hidden;
+    align-items: center;
+    background-color: white;
+    margin: 5px 3px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+/* checkBox */
+
+#TodoList-Container li .CheckBox{
+    width: 20px;
+    height: 20px;
+}
+
+/* notification */
+#notification{
+    width: 0px;
+    height: 30px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    transition: all 1s linear;
+    
+}
+
